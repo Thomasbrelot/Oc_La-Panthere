@@ -19,47 +19,46 @@ li{
 .color-white{
     color: white;
 }
-
-
-.flex-column{
-    display: flex;
-    flex-direction: column;
-}
-.adress{
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
+.width-100{
+    width: 100%;
 }
 
-
-
+/* Modification sur la page web */
 .container {
     max-width: 1250px;
 }
 a.btn-hover:hover {
     background-color: #F3976C !important;
     color: white;
-    border-radius: 7px;
     transition: 300ms;
 }
-q {
-    font-size: 19px;
+.bloc{
+    width: 100%;
 }
-cite {
-    font-size: 21px;
-    font-weight: 600;
-}
-.bg-banniere-text{
-    font-size: 14px;
-}
-.bg-banniere-lien{
-    margin-top: 35px;
+.horaire-adress{
     font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-atomic-tangerine {
+    background: #F3976C;
+    color: #FFFFFF!important;
+}
+.btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    color: #FFFFFF!important;
 }
 
-
-
-
+/* Modification des tailles blocs */
+.bloc-sm {
+    padding: 20px 50px;
+}
+.bloc-md {
+    padding: 50px;
+}
+.bloc-lg {
+    padding: 100px;
+}
 
 
 
@@ -71,46 +70,7 @@ cite {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
-.bloc {
-    width: 100%;
-    clear: both;
-    background: 50% 50% no-repeat;
-    padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
-
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.bloc-lg {
-    padding: 100px 50px;
-}
-
-.bloc-md {
-    padding: 50px;
-}
-
-.bloc-sm {
-    padding: 20px 50px;
-}
-
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
@@ -118,26 +78,8 @@ cite {
 }
 
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
 }
 
@@ -273,7 +215,7 @@ cite {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -511,9 +453,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
+
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -595,15 +535,7 @@ a[data-lightbox]:hover img {
     background-color: #364577;
 }
 
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
-}
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
-}
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -627,63 +559,29 @@ a[data-lightbox]:hover img {
 }
 
 /*modifications des titres*/
-#bloc-1-hero h1 {
-    font-size: 35px;
-    color: #F3976C!important;
-}
-h2 {
-    font-size: 23px;
-    line-height: 1.4em;
-    margin-bottom: 50px;
-}
-h3 {
-    font-size: 17px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-h4 {
-    color: #ffffff!important;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-h5{
-    font-size: 17px;
-    font-weight: 600;
-}
-h6{
-    font-size: 20px;
-    color: white;
+h1{
+    font-size: 43px;
 }
 p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /*modifications des backgrounds*/
-.background-orange{
+.background{
     background-color: #F3976C;
 }
-.bg-t-edge {
-    background: top no-repeat;
+.background-poste-travail{
+    background-image: url(img/poste-de-travail.jpeg);
 }
-.bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
-    background-color: #364577;
-    background-attachment: fixed;
-}
-.bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
-    background-attachment: fixed;
-}
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .banniere-contacte{
     position: relative;
     font-size: 23px;
     color: white;
 }
-
+.texture-paper::before {
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
+}
 
 /*modifications sur les differents type d'écran*/
 @media (min-width: 768px) {

@@ -287,7 +287,6 @@ div#bloc-8 {
     right: 0;
 }
 
-
 /*modifications sur les differents type d'écran*/
 
 @media screen and (max-width:750px) {
@@ -331,9 +330,54 @@ div#bloc-8 {
         margin-bottom: 7px !important;
     }
 }
-
-
-
+@media screen and (max-width:500px) {
+    .bloc-sm{
+        padding: 30px 20px;
+    }
+    h2{
+        white-space: pre-line;
+    }
+    h3{
+        font-size: 16px;
+    }
+    q{
+        font-size: 16px;
+    }
+    cite{
+        font-size: 19px;
+    }
+    .img-750 {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .bg-banniere-text {
+        font-size: 14px;
+    }
+    .bg-banniere-lien {
+        font-size: 16px;
+    }
+    .margin-bottom{
+        margin-bottom: 40px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .banniere-contacte {
+        font-size: 20px;
+    }
+    h6{
+        font-size: 18px;
+        margin-top: 20px !important;
+    }
+}
+/*
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
@@ -343,4 +387,4 @@ div#bloc-8 {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+}*/

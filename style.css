@@ -235,7 +235,6 @@ p {
 }
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
-    background-color: #364577;
     background-attachment: fixed;
 }
 .bg-presentation {

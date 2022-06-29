@@ -28,6 +28,10 @@ li{
 .font-size{
     font-size: 15px;
 }
+.alignement{
+    display: flex;
+    align-items: center;
+}
 
 /* Modification de la navigation */
 .navbar {
@@ -185,7 +189,7 @@ p {
     background-color: #F3976C;
 }
 .background-poste-travail{
-    background-image: url(img/poste-de-travail.jpeg);
+    background-image: url(./img/poste-de-travail-size.jpg);
     background-size: cover;
     height: 155px;
     display: flex;

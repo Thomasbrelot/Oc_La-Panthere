@@ -256,12 +256,14 @@ p {
     background: top no-repeat;
 }
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url(./img/agence-la-panthere-top.png);
     background-attachment: fixed;
+    background-size: cover;
 }
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url(./img/image-de-presentation-middle.png);
     background-attachment: fixed;
+    background-size: cover;
 }
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");

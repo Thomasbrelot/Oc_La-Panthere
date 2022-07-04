@@ -16,6 +16,9 @@ ul{
 li{
     padding: 5px;
 }
+.color-black{
+    color: #080808;
+}
 .color-white{
     color: white;
 }
@@ -159,7 +162,7 @@ cite {
 }
 .btn-atomic-tangerine {
     background: #e28154 !important;
-    color: #FFFFFF!important;
+    color: #090909!important;
 }
 .btn-atomic-tangerine:hover {
     opacity: 0.7;;
@@ -169,7 +172,7 @@ cite {
     margin: 40px auto 45px;
 }
 .icon-md {
-    font-size: 30px!important;
+    font-size: 35px!important;
 }
 .icon-md:hover{
     transition: 400ms;
@@ -241,8 +244,8 @@ h5{
     margin-bottom: 20px;
 }
 h6{
-    font-size: 20px;
-    color: white;
+    font-size: 21px;
+    color: #080808;
 }
 p {
     font-size: 13px;

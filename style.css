@@ -158,7 +158,7 @@ cite {
     margin-top: 6px;
 }
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f97d43;
     color: #FFFFFF!important;
 }
 .btn-atomic-tangerine:hover {
@@ -256,12 +256,12 @@ p {
     background: top no-repeat;
 }
 .bg-banniere {
-    background-image: url(./img/agence-la-panthere-top.png);
+    background-image: url(./img/agence-la-panthere-top.webp);
     background-attachment: fixed;
     background-size: cover;
 }
 .bg-presentation {
-    background-image: url(./img/image-de-presentation-middle.png);
+    background-image: url(./img/image-de-presentation-middle.webp);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -272,7 +272,7 @@ p {
     background-image: url("img/lines-h2-bg.png");
 }
 div#bloc-8 {
-    background: #F3976C;
+    background: #f97d43;
 }
 .banniere-contacte{
     position: relative;

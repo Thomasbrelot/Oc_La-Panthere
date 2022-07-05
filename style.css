@@ -73,6 +73,20 @@ li{
     width: 26px;
 }
 
+/* Modification des icones de la pages */
+i.fa-regular {
+    font-size: 50px;
+}
+i.fa-solid {
+    font-size: 50px;
+}
+i.fa-brands {
+    font-size: 30px;
+}
+i.fa-brands:hover{
+    transition: 400ms;
+    transform: scale(2);
+}
 
 /* Modification sur la page web */
 .container {
@@ -142,12 +156,6 @@ cite {
     font-size: 18px;
     text-decoration: underline;
 }
-.icons {
-    font-size: 60px!important;
-    margin-bottom: 14px;
-    margin-top: 24px;
-    
-}
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -170,19 +178,13 @@ cite {
     color: #090909!important;
 }
 .btn-atomic-tangerine:hover {
-    opacity: 0.7;;
+    opacity: 0.6;
 }
 .social {
     max-width: 400px;
     margin: 40px auto 45px;
 }
-.icon-md {
-    font-size: 35px!important;
-}
-.icon-md:hover{
-    transition: 400ms;
-    transform: scale(2);
-}
+
 
 /* Page de chargement de notre site web */
 #page-loading-blocs-notifaction {
@@ -249,7 +251,7 @@ h5{
     margin-bottom: 20px;
 }
 h6{
-    font-size: 21px;
+    font-size: 23px;
     color: #080808;
 }
 p {

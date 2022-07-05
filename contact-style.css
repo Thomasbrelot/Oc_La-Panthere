@@ -16,8 +16,8 @@ ul{
 li{
     padding: 5px;
 }
-.color-white{
-    color: white;
+.color-black{
+    color: #414140;
 }
 .width-100{
     width: 100%;
@@ -34,6 +34,10 @@ li{
 }
 
 /* Modification de la navigation */
+.img-nav{
+    width: auto;
+    height: 45px;
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -67,6 +71,15 @@ li{
     width: 26px;
 }
 
+/* Modification des icones dans le footer */
+i.fa-brands {
+    font-size: 30px;
+}
+i.fa-brands:hover{
+    transition: 400ms;
+    transform: scale(2);
+}
+
 /* Modification sur la page web */
 .container {
     max-width: 1250px;
@@ -80,6 +93,7 @@ a.btn-hover:hover {
     width: 100%;
 }
 .horaire-adress{
+    color: white;
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -178,10 +192,10 @@ h1{
     font-size: 43px;
 }
 h2{
-    font-size: 25px;
+    font-size: 28px;
 }
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* modifications des backgrounds */
@@ -189,7 +203,7 @@ p {
     background-color: #F3976C;
 }
 .background-poste-travail{
-    background-image: url(./img/poste-de-travail-size.jpg);
+    background-image: url(./img/poste-de-travail-resize.webp);
     background-size: cover;
     height: 155px;
     display: flex;

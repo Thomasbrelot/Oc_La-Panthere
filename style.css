@@ -34,6 +34,10 @@ li{
 .margin-bottom-title{
     margin-bottom: 75px;
 }
+.img-auto-size{
+    width: auto;
+    height: auto;
+}
 
 /* Modification de la navigation */
 .img-nav{

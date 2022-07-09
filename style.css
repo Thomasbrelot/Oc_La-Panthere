@@ -34,16 +34,8 @@ li{
 .margin-bottom-title{
     margin-bottom: 75px;
 }
-.img-auto-size{
-    width: auto;
-    height: 200px;
-}
 
 /* Modification de la navigation */
-.img-nav{
-    width: auto;
-    height: 45px;
-}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -132,10 +124,6 @@ a[data-lightbox]:hover img {
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
-}
-.img-banniere-presentation{
-    width: auto;
-    height: 120px;
 }
 .cta-hero {
     margin-top: 22px;

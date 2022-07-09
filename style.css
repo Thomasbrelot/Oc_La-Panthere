@@ -36,10 +36,13 @@ li{
 }
 .width-100{
     width: 100%;
-    height: auto;
 }
 
 /* Modification de la navigation */
+.img-nav{
+    width: 100%;
+    height: auto;
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;

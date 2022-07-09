@@ -36,7 +36,7 @@ li{
 }
 .img-auto-size{
     width: auto;
-    height: auto;
+    height: 200px;
 }
 
 /* Modification de la navigation */

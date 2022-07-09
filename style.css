@@ -40,8 +40,7 @@ li{
 
 /* Modification de la navigation */
 .img-nav{
-    width: 100%;
-    height: auto;
+    aspect-ratio: attr(9) / attr(2);
 }
 .navbar {
     margin-bottom: 0;

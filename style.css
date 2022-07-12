@@ -373,8 +373,11 @@ div#bloc-8 {
         font-size: 17px;
     }
     i.fa-brands {
-        font-size: 30px;
-        margin-bottom: 25px;
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .col-sm-4 {
+        margin-bottom: 30px;
     }
     /*modification des titres sur la pages et des font-size*/
     .cta-hero {
@@ -400,7 +403,6 @@ div#bloc-8 {
         font-size: 16px;
         margin-top: 0px !important;
     }
-
     .bg-banniere-text {
         font-size: 12px;
     }

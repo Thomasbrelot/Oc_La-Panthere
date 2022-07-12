@@ -333,14 +333,28 @@ div#bloc-8 {
     }
 }
 @media screen and (max-width:500px) {
+    .font-size-logo-mobil {
+        font-size: 35px !important;
+    }
+    .margin-bottom{
+        margin-bottom: 60px;
+    }
+    /*modification des images pour mobil*/
+    .img-mobil {
+        width: 35%;
+        height: 35%;
+    }
+    .img-750 {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+
     .bloc-sm{
         padding: 30px 20px;
     }
-    h2{
-        white-space: pre-line;
-    }
-    h3{
-        font-size: 16px;
+    .bloc-lg {
+        padding: 80px 50px;
     }
     q{
         font-size: 16px;
@@ -348,34 +362,45 @@ div#bloc-8 {
     cite{
         font-size: 19px;
     }
-    .img-750 {
-        width: 200px;
-        height: 200px;
-        text-align: center;
-    }
-    h4{
-        font-size: 20px;
-    }
-    .bg-banniere-text {
-        font-size: 14px;
-    }
-    .bg-banniere-lien {
-        font-size: 16px;
-    }
-    .margin-bottom{
-        margin-bottom: 40px;
-    }
-    h5{
-        font-size: 16px;
-    }
     p{
         font-size: 12px;
     }
     .banniere-contacte {
-        font-size: 20px;
+        font-size: 17px;
+    }
+    i.fa-brands {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    /*modification des titres sur la pages et des font-size*/
+    .cta-hero {
+        font-size: 13px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        white-space: pre-line;
+        font-size: 17px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
     }
     h6{
-        font-size: 18px;
-        margin-top: 20px !important;
+        font-size: 16px;
+        margin-top: 0px !important;
+    }
+
+    .bg-banniere-text {
+        font-size: 12px;
+    }
+    .bg-banniere-lien {
+        font-size: 16px;
     }
 }

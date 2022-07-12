@@ -340,6 +340,10 @@ div#bloc-8 {
         margin-bottom: 60px;
     }
     /*modification des images pour mobil*/
+    img.img-nav {
+        width: 150px;
+        height: 28px;
+    }
     .img-mobil {
         width: 35%;
         height: 35%;

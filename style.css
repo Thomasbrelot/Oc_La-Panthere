@@ -154,10 +154,6 @@ cite {
     font-size: 18px;
     text-decoration: underline;
 }
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
-}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -182,7 +178,6 @@ cite {
     max-width: 400px;
     margin: 40px auto 45px;
 }
-
 
 /* Page de chargement de notre site web */
 #page-loading-blocs-notifaction {
@@ -219,7 +214,7 @@ cite {
     margin-bottom: 40px;
 }
 .tight-width-whitespace {
-    max-width: 600px;
+    width: 100%;
     margin: auto;
 }
 
@@ -296,7 +291,6 @@ div#bloc-8 {
 }
 
 /*modifications sur les differents type d'écran*/
-
 @media screen and (max-width:750px) {
     h2{
         font-size: 19px;
@@ -385,14 +379,3 @@ div#bloc-8 {
         margin-top: 20px !important;
     }
 }
-/*
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}*/

@@ -38,6 +38,14 @@ li {
 .width-100 {
     width: 100%;
 }
+.img-portfolio{
+    width: 200px;
+    height: 200px;
+}
+.img-presentation {
+    width: 150px;
+    height: 150px;
+}
 
 /* Modification de la navigation */
 .img-nav {

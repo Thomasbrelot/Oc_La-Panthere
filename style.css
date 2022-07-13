@@ -5,46 +5,36 @@ body {
     margin: 0;
     padding: 0;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 li {
     padding: 5px;
 }
-
 .color-black {
     color: #080808;
 }
-
 .color-white {
     color: white;
 }
-
 .font-size-16 {
     font-size: 16px;
 }
-
 .margin-top {
     margin-top: 100px;
 }
-
 .margin-bottom {
     margin-bottom: 65px;
 }
-
 .margin-bottom-title {
     margin-bottom: 75px;
 }
-
 .width-100 {
     width: 100%;
 }
@@ -54,12 +44,10 @@ li {
     width: 200px;
     height: 37px;
 }
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
 }
-
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -68,26 +56,22 @@ li {
     font-weight: 600;
     line-height: 44px;
 }
-
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
-
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
     z-index: 1;
 }
-
 .nav>li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
 }
-
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
@@ -97,15 +81,12 @@ li {
 i.fa-regular {
     font-size: 50px;
 }
-
 i.fa-solid {
     font-size: 50px;
 }
-
 i.fa-brands {
     font-size: 30px;
 }
-
 i.fa-brands:hover {
     transition: 400ms;
     transform: scale(2);
@@ -115,20 +96,17 @@ i.fa-brands:hover {
 .container {
     max-width: 1250px;
 }
-
 a.btn-hover:hover {
     background-color: #F3976C !important;
     color: white;
     border-radius: 7px;
     transition: 200ms;
 }
-
 a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
 }
-
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -146,18 +124,15 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
-
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF !important;
@@ -166,26 +141,21 @@ a[data-lightbox]:hover img {
     font-size: 16px;
     font-weight: 700;
 }
-
 q {
     font-size: 19px;
 }
-
 cite {
     font-size: 21px;
     font-weight: 600;
 }
-
 .bg-banniere-text {
     font-size: 15px;
 }
-
 .bg-banniere-lien {
     margin-top: 65px;
     font-size: 18px;
     text-decoration: underline;
 }
-
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -196,20 +166,16 @@ cite {
     z-index: 500;
     transition: all .3s ease-in-out;
 }
-
 .scrollToTop span {
     margin-top: 6px;
 }
-
 .btn-atomic-tangerine {
     background: #e28154 !important;
     color: #090909 !important;
 }
-
 .btn-atomic-tangerine:hover {
     opacity: 0.6;
 }
-
 .social {
     max-width: 400px;
     margin: 40px auto 45px;
@@ -236,24 +202,19 @@ cite {
     background-size: cover;
     position: relative;
 }
-
 .bloc-sm {
     padding: 30px 50px;
 }
-
 .bloc-md {
     padding: 50px;
 }
-
 .bloc-lg {
     padding: 100px 50px;
 }
-
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
 .tight-width-whitespace {
     width: 100%;
     margin: auto;
@@ -264,37 +225,31 @@ h1 {
     font-size: 40px;
     color: #F3976C !important;
 }
-
 h2 {
     font-size: 23px;
     line-height: 1.4em;
     margin-bottom: 75px;
 }
-
 h3 {
     font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
 }
-
 h4 {
     color: #ffffff !important;
     font-size: 22px;
     padding-bottom: 20px;
 }
-
 h5 {
     font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 h6 {
     font-size: 23px;
     color: #080808;
 }
-
 p {
     font-size: 13px;
 }
@@ -303,37 +258,30 @@ p {
 .bg-repeat {
     background: repeat;
 }
-
 .bg-t-edge {
     background: top no-repeat;
 }
-
 .bg-banniere {
     background-image: url(./img/agence-la-panthere-top.webp);
     background-attachment: fixed;
     background-size: cover;
 }
-
 .bg-presentation {
     background-image: url(./img/image-de-presentation-middle.webp);
     background-attachment: fixed;
     background-size: cover;
 }
-
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
-
 div#bloc-8 {
     background: #e28154 !important;
 }
-
 .banniere-contacte {
     position: relative;
     font-size: 23px;
     color: white;
 }
-
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -396,7 +344,6 @@ div#bloc-8 {
         margin-bottom: 7px !important;
     }
 }
-
 @media screen and (max-width:500px) {
     .font-size-logo-mobil {
         font-size: 35px !important;

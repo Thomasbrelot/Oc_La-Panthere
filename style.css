@@ -43,8 +43,8 @@ li {
     height: 200px;
 }
 .img-presentation {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 /* Modification de la navigation */
@@ -231,12 +231,14 @@ cite {
 /*modifications des titres*/
 h1 {
     font-size: 40px;
-    color: #F3976C !important;
+    color: #FFA460 !important;
+    text-shadow: -1px -1px orange, -1px 1px orange, -3px 0 3px #000;
 }
 h2 {
     font-size: 23px;
     line-height: 1.4em;
     margin-bottom: 75px;
+    margin-top: 75px;
 }
 h3 {
     font-size: 17px;

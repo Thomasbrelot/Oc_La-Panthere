@@ -301,9 +301,6 @@ div#bloc-8 {
 
 /*modifications sur les differents type d'écran*/
 @media screen and (max-width:750px) {
-    a[data-lightbox]:hover::before {
-        left: 50%;
-    }
     .margin-bottom-title {
         margin-bottom: 45px;
     }
@@ -358,6 +355,9 @@ div#bloc-8 {
     }
 }
 @media screen and (max-width:500px) {
+    a[data-lightbox]:hover::before{
+        right: 40%;
+    }
     .font-size-logo-mobil {
         font-size: 35px !important;
     }

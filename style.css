@@ -37,6 +37,12 @@ li {
 .width-100 {
     width: 100%;
 }
+
+/*modification des images sur le site*/
+.img-nav {
+    width: 200px;
+    height: 37px;
+}
 .img-portfolio{
     width: 200px;
     height: 200px;
@@ -78,10 +84,6 @@ li {
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
-}
-.img-nav {
-    width: 200px;
-    height: 37px;
 }
 
 /* Modification des icones de la pages */
@@ -135,10 +137,6 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-}
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
 }
 .cta-hero {
     margin-top: 22px;
@@ -303,76 +301,66 @@ div#bloc-8 {
 
 /*modifications sur les differents type d'écran*/
 @media screen and (max-width:750px) {
+    a[data-lightbox]:hover::before {
+        left: 50%;
+    }
+    .margin-bottom-title {
+        margin-bottom: 45px;
+    }
+    .margin-bottom {
+        margin-bottom: 50px;
+    }
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-
-    h2 {
-        font-size: 19px;
-        margin-bottom: 55px;
-    }
-
     .icons {
         font-size: 45px !important;
     }
-
     .center-little-screen {
         width: 50%;
         margin: auto;
     }
-
     q {
         font-size: 18px;
         margin-bottom: 15px;
     }
-
-    .margin-bottom-title {
-        margin-bottom: 45px;
-    }
-
-    .img-responsive {
-        display: initial;
-    }
-
-    .img-750 {
-        width: 275px;
-        height: 275px;
-        text-align: center;
-    }
-
-    a[data-lightbox]:hover::before {
-        left: 50%;
-    }
-
-    h5 {
-        margin-bottom: 10px;
-    }
-
-    .margin-bottom {
-        margin-bottom: 50px;
-    }
-
-    .logo-bottom {
-        margin-bottom: 30px;
-    }
-
-    h6 {
-        font-size: 20px;
-        margin-bottom: 7px !important;
-    }
     i.fa-brands {
         font-size: 30px;
         margin-bottom: 30px;
+    }.logo-bottom {
+        margin-bottom: 30px;
+    }
+
+    
+/*modifications img tablette et + */
+    .img-responsive {
+        display: initial;
+    }
+    .img-750 {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+    /*modification titre*/
+    h2 {
+        font-size: 19px;
+        margin-bottom: 55px;
+    }
+    h5 {
+        margin-bottom: 10px;
+    }
+    h6 {
+        font-size: 20px;
+        margin-bottom: 7px !important;
     }
 }
 @media screen and (max-width:500px) {
     .font-size-logo-mobil {
         font-size: 35px !important;
     }
-
     .margin-bottom {
         margin-bottom: 60px;
     }
@@ -382,17 +370,11 @@ div#bloc-8 {
         width: 150px;
         height: 28px;
     }
-
     .img-mobil {
-        width: 35%;
-        height: 35%;
+        width: 30%;
+        height: 30%;
     }
 
-    .img-750 {
-        width: 100px;
-        height: 100px;
-        text-align: center;
-    }
 
     .bloc-sm {
         padding: 30px 20px;

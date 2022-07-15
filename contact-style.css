@@ -250,6 +250,9 @@ p {
     .icon-md{
         margin-bottom: 33px;
     }
+    i.fa-brands {
+        margin-bottom: 30px;
+    }
     
 }
 @media screen and (max-width:500px) {

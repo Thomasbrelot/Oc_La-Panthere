@@ -1,5 +1,4 @@
-.html,
-body {
+.html,body {
     color: black;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -48,10 +47,6 @@ li {
 }
 
 /* Modification de la navigation */
-.img-nav {
-    width: 200px;
-    height: 37px;
-}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -83,6 +78,10 @@ li {
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
+}
+.img-nav {
+    width: 200px;
+    height: 37px;
 }
 
 /* Modification des icones de la pages */
@@ -304,6 +303,13 @@ div#bloc-8 {
 
 /*modifications sur les differents type d'écran*/
 @media screen and (max-width:750px) {
+    .navbar-collapse {
+        padding: 0;
+        overflow-x: hidden;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
     h2 {
         font-size: 19px;
         margin-bottom: 55px;
@@ -311,6 +317,11 @@ div#bloc-8 {
 
     .icons {
         font-size: 45px !important;
+    }
+
+    .center-little-screen {
+        width: 50%;
+        margin: auto;
     }
 
     q {
@@ -350,8 +361,11 @@ div#bloc-8 {
 
     h6 {
         font-size: 20px;
-        margin-top: 50px !important;
         margin-bottom: 7px !important;
+    }
+    i.fa-brands {
+        font-size: 30px;
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width:500px) {

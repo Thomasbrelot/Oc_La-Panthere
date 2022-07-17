@@ -97,11 +97,16 @@ a.btn-hover:hover {
 .bloc{
     width: 100%;
 }
-.horaire-adress{
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
+.cta-hero {
+    margin-top: 22px;
+    color: #FFFFFF!important;
     text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.hero-bloc-text-sub {
+    font-size: 36px;
 }
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -110,6 +115,12 @@ a.btn-hover:hover {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+.horaire-adress{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .scrollToTop {
     width: 40px;
@@ -132,18 +143,6 @@ a.btn-hover:hover {
     max-width: 400px;
     margin: 40px auto 45px;
 }
-.cta-hero {
-    margin-top: 22px;
-    color: #FFFFFF!important;
-    text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
-}
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
 
 /* Page de chargement du site */
 #page-loading-blocs-notifaction {
@@ -191,7 +190,6 @@ a.btn-hover:hover {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
-
 /*modifications des titres*/
 h1{
     font-size: 43px;
@@ -202,7 +200,6 @@ h2{
 p {
     font-size: 15px;
 }
-
 /* modifications des backgrounds */
 .background{
     background-color: #F3976C;
@@ -228,40 +225,43 @@ p {
 
 /* Modification des differents ecran */
 @media screen and (max-width:900px) {
+/*modification général*/
     .row.alignement {
         display: flex;
         flex-direction: column;
+    }
+    .cta-hero{
+        margin-bottom:100px;
+    }
+/*modification des blocs*/
+    .width-900{
+        width: 85%;
+        margin-bottom: 50px;
     }
     .col-sm-6 {
         width: 50%;
         display: flex;
         align-self: center;
     }
-    .cta-hero{
-        margin-bottom:100px;
-    }
-    .width-900{
-        width: 85%;
-        margin-bottom: 50px;
-    }
-    h2 {
-        font-size: 29px;
-        margin-bottom: 35px;
-    }
+/*modification des icones*/
     .icon-md{
         margin-bottom: 33px;
     }
     i.fa-brands {
         margin-bottom: 30px;
+    } 
+/*modification du titre*/
+    h2 {
+        font-size: 29px;
+        margin-bottom: 35px;
     }
-    
 }
 @media screen and (max-width:500px) {
-    .border-bottom-500{
-        border-bottom: 3px solid #fff;
-        border-radius: 35px;
+/*modification de la nav*/
+    img.img-nav {
+        width: 200px;
+        height: 37px;
     }
-
     .navbar .nav {
         margin-right:15px;
     }
@@ -270,32 +270,37 @@ p {
         display: block;
         padding: 10px 25px;
     }
-    img.img-nav {
-        width: 200px;
-        height: 37px;
+/*ajout d'un border bottom sous les liens acceuil & contacte*/
+    .border-bottom-500{
+        border-bottom: 3px solid #fff;
+        border-radius: 35px;
     }
-    h1 {
-        font-size: 23px;
-        margin-bottom: 45px;
+/*modification des taille bloc*/
+    .col-sm-6 {
+        width: 100%;
     }
     .bloc-lg {
         padding: 25px;
     }
-    p {
-        font-size: 12px;
-    }
-    .col-sm-6 {
-        width: 100%;
+/*modification des titres et texte*/
+    h1 {
+        font-size: 23px;
+        margin-bottom: 45px;
     }
     h2 {
         font-size: 25px;
         margin-bottom: 35px;
     }
+    p {
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:400px) {
+/*modification du text avec adress contacte*/
     .horaire-adress {
         font-size: 10px;
     }
+/*modification des tailles blocs*/
     .bloc-sm {
         padding: 20px 20px;
     }

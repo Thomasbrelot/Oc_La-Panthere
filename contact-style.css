@@ -257,6 +257,19 @@ p {
     
 }
 @media screen and (max-width:500px) {
+    .border-bottom-500{
+        border-bottom: 3px solid #fff;
+        border-radius: 35px;
+    }
+
+    .navbar .nav {
+        margin-right:15px;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 25px;
+    }
     img.img-nav {
         width: 200px;
         height: 37px;

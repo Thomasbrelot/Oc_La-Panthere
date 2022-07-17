@@ -228,8 +228,8 @@ cite {
 /*modifications des titres*/
 h1 {
     font-size: 40px;
-    color: #FFA460 !important;
-    text-shadow: -1px -1px orange, -1px 1px orange, -3px 0 3px #000;
+    color: #e28154 !important;
+    text-shadow: 0px 0px #e28154, 0px 0px #e28154, -3px 0 10px #000;
 }
 h2 {
     font-size: 23px;
@@ -301,20 +301,19 @@ div#bloc-8 {
 
 /*modifications sur les differents type d'écran*/
 @media screen and (max-width:750px) {
-    .margin-bottom-title {
-        margin-bottom: 45px;
-    }
-    .margin-bottom {
-        margin-bottom: 50px;
-    }
+/*modification sur la nav*/
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .icons {
-        font-size: 45px !important;
+/*modification général*/
+    .margin-bottom-title {
+        margin-bottom: 45px;
+    }
+    .margin-bottom {
+        margin-bottom: 50px;
     }
     .center-little-screen {
         width: 50%;
@@ -324,14 +323,17 @@ div#bloc-8 {
         font-size: 18px;
         margin-bottom: 15px;
     }
+    .logo-bottom {
+        margin-bottom: 30px;
+    }
+/*modification des icones*/
+    .icons {
+        font-size: 45px !important;
+    }
     i.fa-brands {
         font-size: 30px;
         margin-bottom: 30px;
-    }.logo-bottom {
-        margin-bottom: 30px;
     }
-
-    
 /*modifications img tablette et + */
     .img-responsive {
         display: initial;
@@ -341,7 +343,7 @@ div#bloc-8 {
         height: 150px;
         text-align: center;
     }
-    /*modification titre*/
+/*modification titre*/
     h2 {
         font-size: 19px;
         margin-bottom: 55px;
@@ -354,18 +356,44 @@ div#bloc-8 {
         margin-bottom: 7px !important;
     }
 }
+
 @media screen and (max-width:500px) {
+    /*modification sur la nav*/
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 25px;
+    }
+    .navbar .nav {
+        margin-right:0;
+    }
+/*modification général*/
     a[data-lightbox]:hover::before{
         right: 40%;
-    }
-    .font-size-logo-mobil {
-        font-size: 35px !important;
     }
     .margin-bottom {
         margin-bottom: 60px;
     }
-
-    /*modification des images pour mobil*/
+    .border-bottom-500{
+        border-bottom: 3px solid #e28154;
+        border-radius: 35px;
+    }
+    .banniere-contacte {
+        font-size: 17px;
+    }
+    .cta-hero {
+        font-size: 13px;
+    }
+    q {
+        font-size: 16px;
+    }
+    cite {
+        font-size: 19px;
+    }
+    .font-size-logo-mobil {
+        font-size: 35px !important;
+    }
+/*modification des images pour mobil*/
     img.img-nav {
         width: 200px;
         height: 37px;
@@ -374,76 +402,53 @@ div#bloc-8 {
         width: 30%;
         height: 30%;
     }
-
-
+/*modification des blocs*/
     .bloc-sm {
         padding: 30px 20px;
     }
-
     .bloc-lg {
         padding: 80px 50px;
     }
-
-    q {
-        font-size: 16px;
+    .col-sm-4 {
+        margin-bottom: 30px;
     }
-
-    cite {
-        font-size: 19px;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    .banniere-contacte {
-        font-size: 17px;
-    }
-
+/*modification des icones*/
     i.fa-brands {
         font-size: 23px;
         margin-bottom: 20px;
     }
-
-    .col-sm-4 {
-        margin-bottom: 30px;
-    }
-
-    /*modification des titres sur la pages et des font-size*/
-    .cta-hero {
-        font-size: 13px;
-    }
-
+/*modification des titres et texte*/
     h1 {
         font-size: 25px;
     }
-
     h2 {
         white-space: pre-line;
         font-size: 17px;
+        font-size: 23px;
+        line-height: 1.4em;
+        margin-bottom: 75px;
+        margin-top: 40px;
     }
-
     h3 {
         font-size: 16px;
     }
-
     h4 {
         font-size: 18px;
     }
-
     h5 {
         font-size: 14px;
     }
-
     h6 {
         font-size: 16px;
         margin-top: 0px !important;
     }
-
+    p {
+        font-size: 12px;
+    }
+/*modification des font size sur les bannieres*/
     .bg-banniere-text {
         font-size: 12px;
     }
-
     .bg-banniere-lien {
         font-size: 16px;
     }
